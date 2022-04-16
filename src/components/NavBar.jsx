@@ -1,8 +1,9 @@
 import React from "react";
-import "./NavBar.css"
+import Cart from "./cartWidget";
 
 function NavBar(props) {
     return (
+      <> 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">PALO</a>
@@ -33,9 +34,9 @@ function NavBar(props) {
       </ul>
     </div>
   </div>
-  <button type="button" class="btn btn-warning">CARRITO</button>
+    <Cart />
 </nav>
-    );
+</>);
 }
 
 export default NavBar
