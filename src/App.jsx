@@ -4,12 +4,15 @@ import "./components/NavBar";
 import NavBar from './components/NavBar';
 import Cart from "./components/cartWidget";
 import Bienvenida from './components/ItemListContainer';
+import Cards from './components/Cards';
+import ItemCount from './components/ItemCount';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Bienvenida />
+      <Cards />
       <header className="App-header">
 
         <img src={logo} className="App-logo" alt="logo" />
